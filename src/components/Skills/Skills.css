@@ -67,5 +67,16 @@ background: rgb(50,50,50);
     width: 60px;
    }
 }
+@media (max-width: 402px) 
+{
+   .skill-bar-text h2
+   {
+    font-size: 17px;
+   }
+   .skill-bar-text p
+   {
+    font-size: 12px;
+   }
+}
 
 

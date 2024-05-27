@@ -21,7 +21,7 @@
           </div>
           <button className='nav-button' onClick={()=>{
             document.getElementById('contact').scrollIntoView({behavior:'smooth'}); 
-          }}><img src={contact} alt=''className='nav-but-img' onClick={()=>{}}/> Contact Me</button>
+          }}><img src={contact} alt=''className='nav-but-img'/> Contact Me</button>
           <img src={menu} alt='' className='mob' onClick={()=>setshowmenu(!showmenu)}/>
           <div className='navmenu' style={{display: showmenu?'flex':'none'}}>
                  
